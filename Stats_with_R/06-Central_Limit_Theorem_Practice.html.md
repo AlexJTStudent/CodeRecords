@@ -8,9 +8,11 @@ format:
 execute:
   keep-md: TRUE
 ---
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, error = TRUE)
-```
+
+
+
+
+
 
 
 # Instructions
@@ -24,11 +26,18 @@ Suppose you take a sample of size $n=5$ from a right skewed distribution with a 
 
 __Question__: What is the mean of the distribution of sample means ($\mu_{\bar{x}}$)?  
 __Answer__: 125
-```{r}
+
+
+::: {.cell}
+
+```{.r .cell-code}
 mu = 125
 sig = 12
 n = 5
 ```
+:::
+
+
 
 __Question__: What is the standard deviation of sample means ($\sigma_{\bar{x}}$)?  
 __Answer__: 12 / sqrt(5) = 5.3666
