@@ -266,7 +266,6 @@ View(mcat)
 ## Plot the Data and calculate r
 
 ```{r}
-plot(mcat$MCAT ~ mcat$GPA)
 cor(mcat$MCAT ~ mcat$GPA)
 ```
 
