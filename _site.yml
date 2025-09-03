@@ -71,7 +71,7 @@ output_dir: '.'
 
 output: 
   html_document:
-    theme: cerulean
+    theme: flatly
     css: styles.css
     highlight: tango
     include:
