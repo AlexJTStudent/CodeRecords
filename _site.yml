@@ -2,9 +2,9 @@ name: "statistics-notebook"
 navbar:
   title: "<img src='Images/snlogo.png' alt='Statistics Notebook Logo' style='height: 30px; margin: -5px 0px'>"
   left:
-    - text: "R Help"
+    - text: "R Helpy"
       menu:
-        - text: "R Commands"
+        - text: "R Comma"
           href: RCommands.html
         - text: "R Markdown Hints"
           href: RMarkdownHints.html
